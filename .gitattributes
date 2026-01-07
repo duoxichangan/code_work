@@ -1,0 +1,18 @@
+# 编译输出目录（Maven/Gradle）
+target/
+build/
+# 大文件（除非你明确要用 LFS 管理，否则先忽略）
+# 如果你确定要用 LFS 上传 .zip，可以注释掉这一行
+# *.zip
+# IDE 配置
+.idea/
+*.iml
+.vscode/
+# 操作系统
+Thumbs.db
+.DS_Store
+Desktop.ini
+# 日志、临时文件
+*.log
+*.tmp
+*.zip filter=lfs diff=lfs merge=lfs -text
